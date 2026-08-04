@@ -1,0 +1,18 @@
+{
+  "name": "airidale-guides",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "validate": "node scripts/validate-guides.mjs",
+    "build:snapshot": "node scripts/build-snapshot.mjs",
+    "check:deterministic": "node scripts/build-snapshot.mjs --check-deterministic",
+    "test": "node --test scripts/*.test.mjs"
+  },
+  "dependencies": {
+    "js-yaml": "5.2.3"
+  }
+}

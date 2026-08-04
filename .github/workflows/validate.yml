@@ -1,0 +1,32 @@
+name: Validate guides
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: npm run validate
+      - run: npm run check:deterministic
+      - name: Reject deleted or renamed guide files
+        shell: bash
+        run: |
+          changes="$(git diff --name-status --diff-filter=DR "origin/${{ github.base_ref }}...HEAD" -- guides)"
+          if [[ -n "$changes" ]]; then
+            echo "$changes"
+            echo "Existing guide files cannot be deleted or renamed. Set status: archived instead."
+            exit 1
+          fi

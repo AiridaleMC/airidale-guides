@@ -1,0 +1,35 @@
+name: Submit merged guides
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: airidale-guide-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: npm run validate
+      - run: npm run check:deterministic
+      - run: npm run build:snapshot -- --output snapshot.json
+      - name: Submit pending revisions
+        env:
+          GUIDE_SYNC_SECRET: ${{ secrets.GUIDE_SYNC_SECRET }}
+          GUIDE_SYNC_URL: https://www.airidale.net/api/internal/guide-sync
+        run: node scripts/sync-guides.mjs snapshot.json
