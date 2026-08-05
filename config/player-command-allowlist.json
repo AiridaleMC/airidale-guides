@@ -18,6 +18,8 @@
     "/junker auto",
     "/junker stats",
     "/keys",
+    "/keys withdraw",
+    "/keys withdraw <key>",
     "/ptop",
     "/referral cancel <playerName>",
     "/referral code",
@@ -32,6 +34,7 @@
     "/votetop",
     "/warp crates",
     "/warp donate",
+    "/warp library",
     "/warp pit"
   ]
 }
