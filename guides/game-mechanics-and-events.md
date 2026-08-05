@@ -18,9 +18,9 @@ status: active
 
 ## Prestige Commissary
 
-The prestige commissary requires P1 or higher. Each prestige level gives you one minute of access per day, from one minute at P1 to 10 minutes at P10.
+The [prestige](/guides/prestige-guide) [commissary](/guides/npc-locations#commissary-guard) requires P1 or higher. Each prestige level gives you one minute of access per day, from one minute at P1 to 10 minutes at P10.
 
-This timed area is separate from the Smuggler's Den passes sold for 333, 666, or 999 Scrap.
+This timed area is separate from the [Smuggler's Den](/guides/npc-locations#e-ward-smugglers-den) passes sold for 333, 666, or 999 Scrap.
 
 ## Ward Cells and Auction Houses
 
@@ -38,20 +38,20 @@ Auction House items are placed into chests where other players can purchase them
 
 ## Donor Cells
 
-Donor cells begin at Knight rank. They are separate from prison wards and are not lost when you rank up or prestige.
+[Donor](https://store.airidale.net/category/ranks) cells begin at [Knight](https://store.airidale.net/package/3489754) rank. They are separate from prison wards and are not lost when you rank up or [prestige](/guides/prestige-guide) [commissary](/guides/npc-locations#commissary-guard).
 
 | Donor rank | Rank price | Seven-day cell rent | Interior size |
 |---|---:|---:|---|
-| Knight | $50 | $60,000 | `5 × 5 × 5` |
-| Elder | $100 | $80,000 | `7 × 7 × 5` |
-| Hero | $150 | $100,000 | `9 × 9 × 5` |
-| Legend | $200 | $120,000 | `11 × 11 × 5` |
+| [Knight](https://store.airidale.net/package/3489754) | $50 | $60,000 | `5 × 5 × 5` |
+| [Elder](https://store.airidale.net/package/3489763) | $100 | $80,000 | `7 × 7 × 5` |
+| [Hero](https://store.airidale.net/package/3489766) | $150 | $100,000 | `9 × 9 × 5` |
+| [Legend](https://store.airidale.net/package/5201742) | $200 | $120,000 | `11 × 11 × 5` |
 
 Visit `/warp donate` to preview donor ranks, mines, tools, and other current donor benefits before making a purchase.
 
 ## Smuggler's Den Passes
 
-Smuggler's Den passes let you bulk-sell selected mined materials for twice the normal server-shop price. The brokers are at the bottom of the well in the E Ward animal area.
+[Smuggler's Den](/guides/npc-locations#e-ward-smugglers-den) passes let you bulk-sell selected mined materials for twice the normal server-shop price. The brokers are at the bottom of the well in the E Ward animal area.
 
 | Broker | Pass cost | Materials accepted |
 |---|---:|---|
@@ -79,7 +79,7 @@ Double Drops is a passive Mining ability unlocked at level 250. It can cause a m
 
 - It works with Silk Touch.
 - The chance increases with Mining level and reaches 100% at level 1,000.
-- Airidale custom pickaxes can process blocks differently, so do not assume every custom-tool effect will multiply a Double Drop in the same way.
+- Airidale [custom pickaxes](https://store.airidale.net/category/1462765) can process blocks differently, so do not assume every custom-tool effect will multiply a Double Drop in the same way.
 
 ## Risky Disenchanting
 
@@ -89,9 +89,9 @@ Better materials have better recovery chances, but the item itself is never retu
 
 ## Scrap and Souls
 
-Scrap comes mainly from mining, but it can also be earned through crates, fishing, mobs, and woodcutting. It is used for Totems, Souls, quest-reset vouchers, Smuggler's Den passes, gang boss keys, and other server systems.
+Scrap comes mainly from mining, but it can also be earned through crates, fishing, mobs, and woodcutting. It is used for Totems, Souls, quest-reset vouchers, [Smuggler's Den](/guides/npc-locations#e-ward-smugglers-den) passes, gang boss keys, and other server systems.
 
-Souls are physical items used for enchanting. They can come from mining, woodcutting, mobs, animals, fishing, and crates. You can also trade for them or buy them from the Lunch Lady for 100 Scrap each.
+Souls are physical items used for enchanting. They can come from mining, woodcutting, mobs, animals, fishing, and crates. You can also trade for them or buy them from the [Lunch Lady](/guides/npc-locations#lunch-lady-scrap-shops) for 100 Scrap each.
 
 ## Totems and Death Risk
 
@@ -104,7 +104,7 @@ Totems provide effects while held, but they can be lost like ordinary items if y
 | Fishing | Doubled Fishing Scrap, Souls, and Keys while held |
 | Haste | Haste II for five minutes with a 30-minute base cooldown |
 
-Activate a Haste Totem by placing it in your offhand and right-clicking. Prestige levels reduce its cooldown.
+Activate a Haste Totem by placing it in your offhand and right-clicking. [Prestige](/guides/prestige-guide) levels reduce its cooldown.
 
 ## Voting and VoteParty
 
@@ -138,7 +138,7 @@ Use the amount displayed by the live Warden interface rather than calculating fr
 
 ## Discord Support
 
-Use `/discord` to join the Airidale community and open a support ticket for in-game or store help.
+Use `/discord` to join the Airidale community [Discord](https://discord.com/invite/airidale) and open a support ticket for in-game or store help.
 
 ## Automatic Contests
 
@@ -205,7 +205,7 @@ Airdrops, also called Envoys, take place in The Pit. Use `/warp pit` to get ther
 - At least 15 players must be online for an automatic event.
 - A newly spawned crate has a 15-second claim grace period.
 - After claiming a crate, you must wait eight seconds before claiming another.
-- An Airdrop Flare requires at least 10 players online and can only be activated in The Pit.
+- An Airdrop Flare requires at least 15 players online and can only be activated in The Pit.
 
 The Pit is a PvP area. Other players can fight you for the crates, so carry only what you are prepared to risk.
 
@@ -213,6 +213,6 @@ The Pit is a PvP area. Other players can fight you for the crates, so carry only
 
 | Tier | Spawn chance | Possible rewards |
 |---|---:|---|
-| Basic | 75% | Basic ore kit, physical Uncommon Crate Key, or Elder kit with a Prison Guard encounter |
-| Intermediate | 20% | Intermediate ore kit, physical Rare Crate Key, or Hero kit with a Prison Guard encounter |
-| Advanced | 5% | Advanced ore kit, 2 physical Rare Crate Keys, or Legend kit with a Prison Guard encounter |
+| Basic | 75% | Basic ore kit, physical Uncommon Crate Key, or [Elder](https://store.airidale.net/package/3489763) kit with a Prison Guard encounter |
+| Intermediate | 20% | Intermediate ore kit, physical Rare Crate Key, or [Hero](https://store.airidale.net/package/3489766) kit with a Prison Guard encounter |
+| Advanced | 5% | Advanced ore kit, 2 physical Rare Crate Keys, or [Legend](https://store.airidale.net/package/5201742) kit with a Prison Guard encounter |
