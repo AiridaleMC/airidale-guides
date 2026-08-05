@@ -39,16 +39,8 @@ function proseOnly(markdown) {
     .replace(/`[^`\r\n]*`/g, "");
 }
 
-export function extractInlineCommands(markdown) {
-  return [...markdown.matchAll(/`(\/[^`\r\n]+)`/g)].map((match) => match[1].trim());
-}
-
-export function validateMarkdown(markdown, sourcePath, approvedCommands) {
+export function validateMarkdown(markdown, sourcePath) {
   if (secretAssignment.test(markdown)) throw new Error(`${sourcePath}: possible secret assignment found.`);
-  const commands = [...new Set(extractInlineCommands(markdown))];
-  const approved = new Set(approvedCommands);
-  const invalidCommands = commands.filter((command) => !approved.has(command));
-  if (invalidCommands.length) throw new Error(`${sourcePath}: unapproved player command: ${invalidCommands.join(", ")}`);
 
   const prose = proseOnly(markdown);
   if (/<\/?[A-Za-z][^>\r\n]*>/.test(prose)) throw new Error(`${sourcePath}: raw HTML or JSX is not allowed.`);
@@ -95,7 +87,7 @@ export function parseGuideSource(source, sourcePath, configuration) {
   const title = requiredString(h1Matches[0][1], `${sourcePath} title`, 160);
   const body = markdown.slice(h1Matches[0][0].length).trim();
   if (!/^##\s+/m.test(body)) throw new Error(`${sourcePath}: at least one H2 section is required.`);
-  validateMarkdown(body, sourcePath, configuration.approvedCommands);
+  validateMarkdown(body, sourcePath);
 
   return {
     slug,
@@ -139,9 +131,8 @@ export function validateGuideLinks(guides) {
 
 export function readConfiguration(root) {
   const categories = JSON.parse(readFileSync(path.join(root, "config", "categories.json"), "utf8")).categories;
-  const approvedCommands = JSON.parse(readFileSync(path.join(root, "config", "player-command-allowlist.json"), "utf8")).approvedCommands;
-  if (!Array.isArray(categories) || !Array.isArray(approvedCommands)) throw new Error("Guide configuration is invalid.");
-  return { categories, approvedCommands };
+  if (!Array.isArray(categories)) throw new Error("Guide configuration is invalid.");
+  return { categories };
 }
 
 export function readGuides(root = process.cwd()) {
