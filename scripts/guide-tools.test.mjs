@@ -13,7 +13,7 @@ import {
   validateMarkdown,
 } from "./guide-tools.mjs";
 
-const configuration = { categories: ["Progression"], approvedCommands: ["/rankup"] };
+const configuration = { categories: ["Progression"] };
 const valid = `---
 schemaVersion: 1
 slug: rankup
@@ -44,22 +44,22 @@ test("filename and slug must match", () => {
   assert.throws(() => parseGuideSource(valid, "guides/wrong.md", configuration), /filename must match/i);
 });
 
-test("raw HTML, MDX, images, unsafe links, and unapproved commands are rejected", () => {
-  assert.throws(() => validateMarkdown("<script>alert(1)</script>", "bad.md", []), /HTML/i);
-  assert.throws(() => validateMarkdown("export const x = 1", "bad.md", []), /MDX/i);
-  assert.throws(() => validateMarkdown("![tracker](https://example.com/a.png)", "bad.md", []), /images/i);
-  assert.throws(() => validateMarkdown("[click](javascript:alert(1))", "bad.md", []), /unsafe/i);
-  assert.throws(() => validateMarkdown("Run `/op`.", "bad.md", []), /unapproved/i);
+test("raw HTML, MDX, images, and unsafe links are rejected while player commands are allowed", () => {
+  assert.throws(() => validateMarkdown("<script>alert(1)</script>", "bad.md"), /HTML/i);
+  assert.throws(() => validateMarkdown("export const x = 1", "bad.md"), /MDX/i);
+  assert.throws(() => validateMarkdown("![tracker](https://example.com/a.png)", "bad.md"), /images/i);
+  assert.throws(() => validateMarkdown("[click](javascript:alert(1))", "bad.md"), /unsafe/i);
+  assert.doesNotThrow(() => validateMarkdown("Run `/keys withdraw <key>` and `/warp library`.", "good.md"));
 });
 
 test("Airidale website links must be root relative", () => {
-  assert.throws(() => validateMarkdown("[guide](https://www.airidale.net/guides/test)", "bad.md", []), /root-relative/i);
-  assert.doesNotThrow(() => validateMarkdown("[guide](/guides/test)", "good.md", []));
+  assert.throws(() => validateMarkdown("[guide](https://www.airidale.net/guides/test)", "bad.md"), /root-relative/i);
+  assert.doesNotThrow(() => validateMarkdown("[guide](/guides/test)", "good.md"));
 });
 
 test("invalid UTF-8, secret assignments, unsupported metadata, and archived links are rejected", () => {
   assert.throws(() => decodeUtf8(Buffer.from([0xc3, 0x28])), /encoded data|encoding/i);
-  assert.throws(() => validateMarkdown("api_key: abcdefghijklmnop", "bad.md", []), /secret/i);
+  assert.throws(() => validateMarkdown("api_key: abcdefghijklmnop", "bad.md"), /secret/i);
   assert.throws(() => parseGuideSource(valid.replace("status: active", "status: active\nprivate: true"), "guides/rankup.md", configuration), /unsupported frontmatter/i);
   assert.throws(() => validateGuideLinks([
     { slug: "rankup", status: "active", sourcePath: "guides/rankup.md", body: "Read [retired](/guides/retired)." },
@@ -72,7 +72,6 @@ test("guide discovery rejects oversized files and non-regular entries", (context
   mkdirSync(path.join(root, "config"), { recursive: true });
   mkdirSync(path.join(root, "guides"), { recursive: true });
   writeFileSync(path.join(root, "config", "categories.json"), JSON.stringify({ categories: ["Progression"] }));
-  writeFileSync(path.join(root, "config", "player-command-allowlist.json"), JSON.stringify({ approvedCommands: ["/rankup"] }));
   writeFileSync(path.join(root, "guides", "rankup.md"), Buffer.alloc(250_001, 65));
   assert.throws(() => readGuides(root), /exceeds/i);
 

@@ -14,7 +14,7 @@ Thank you for helping keep Airidale's player information accurate.
 
 Every guide is stored as `guides/<slug>.md`. Existing slugs and filenames are permanent because players and search engines may link to them. To retire a guide, change its frontmatter to `status: archived`; do not delete the file.
 
-The Markdown body must start with exactly one H1 title and contain at least one H2 section. Metadata categories and player commands must already exist in the files under `config/`. If a genuinely public command needs to be added, explain that separately in the pull request.
+The Markdown body must start with exactly one H1 title and contain at least one H2 section. Metadata categories must already exist under `config/`. Verify every documented player command in game or with an Airidale staff member.
 
 ## Validation
 
