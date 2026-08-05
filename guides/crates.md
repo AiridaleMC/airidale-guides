@@ -4,22 +4,17 @@ slug: crates
 summary: How to obtain crate keys and what the current reward pools contain.
 category: Economy & Systems
 tags:
-  - collector's
   - common
   - crates
   - epic
   - fishing
   - keys
   - legendary
-  - library
-  - mcmmo
   - mining
   - mob
   - rare
   - rewards
-  - tag
   - uncommon
-  - vote
   - woodcutting
 featured: false
 order: 140
