@@ -48,7 +48,7 @@ The [Lumber Axe](https://store.airidale.net/package/3489788) breaks up to a `3 Ã
 
 Scrap is a special currency used mainly at the Lunch Lady's shops. It can also be gambled with the Phil NPC.
 
-### What can I buy from the [Lunch Lady](https://www.airidale.net/guides/npc-locations#lunch-lady-scrap-shops)?
+### What can I buy from the [Lunch Lady](/guides/npc-locations#lunch-lady-scrap-shops)?
 
 Her current Scrap purchases include:
 
@@ -71,7 +71,7 @@ Place an item into an enchanting table and hover over an enchantment to see its 
 
 ### Where can I get Souls?
 
-Souls can come from mining, woodcutting, killing mobs or animals, fishing, and crates. You can also trade with other players or buy Souls from the [Lunch Lady](https://www.airidale.net/guides/npc-locations#lunch-lady-scrap-shops) for 100 Scrap each.
+Souls can come from mining, woodcutting, killing mobs or animals, fishing, and crates. You can also trade with other players or buy Souls from the [Lunch Lady](/guides/npc-locations#lunch-lady-scrap-shops) for 100 Scrap each.
 
 ## Disenchanting Safely
 
@@ -88,7 +88,7 @@ Soulbound Books can be applied to compatible equipment for an experience cost. N
 
 Use a smithing table with:
 
-- A Netherite Upgrade Smithing Template from the [Lunch Lady](https://www.airidale.net/guides/npc-locations#lunch-lady-scrap-shops).
+- A Netherite Upgrade Smithing Template from the [Lunch Lady](/guides/npc-locations#lunch-lady-scrap-shops).
 - One Netherite Ingot.
 - The Diamond tool or armor piece being upgraded.
 - Enough Souls to cover the material-price difference for its [enchantments](/guides/enchanting-and-soul-costs.md).
@@ -103,7 +103,7 @@ Each [donor](https://store.airidale.net/category/ranks) kit can be claimed once 
 
 ### Which regular ward mines are better?
 
-Regular mines improve from [E](https://www.airidale.net/guides/ranks-and-rankups#e-ward) Mine through [D](https://www.airidale.net/guides/ranks-and-rankups#d-ward), [C](https://www.airidale.net/guides/ranks-and-rankups#c-ward), [B](https://www.airidale.net/guides/ranks-and-rankups#b-ward), and finally [A](https://www.airidale.net/guides/ranks-and-rankups#a-ward) Mine.
+Regular mines improve from [E](/guides/ranks-and-rankups#e-ward) Mine through [D](/guides/ranks-and-rankups#d-ward), [C](/guides/ranks-and-rankups#c-ward), [B](/guides/ranks-and-rankups#b-ward), and finally [A](/guides/ranks-and-rankups#a-ward) Mine.
 
 ### Which donor mines are better?
 
@@ -117,15 +117,15 @@ No. Diamond Ore and Emerald Ore are the best materials found in regular and [don
 
 ### How much do smugglers pay?
 
-Each [smuggler](https://www.airidale.net/guides/npc-locations#e-ward-smugglers-den) pays twice the normal server-shop price for the items that the [smuggler](https://www.airidale.net/guides/npc-locations#e-ward-smugglers-den) accepts.
+Each [smuggler](/guides/npc-locations#e-ward-smugglers-den) pays twice the normal server-shop price for the items that the [smuggler](/guides/npc-locations#e-ward-smugglers-den) accepts.
 
 ## Crate Keys
 
 ### Where are my crate keys stored?
 
-Fishing, Mining, Mob, [Woodcutting](/guides/woodcutting-crate.md), and Legendary keys are virtual. Use `/keys` to view them.
+Fishing, Mining, Mob, Woodcutting, and Legendary keys are virtual. Use `/keys` to view them.
 
-Tag Crate Keys and gang boss keys bought from the [Lunch Lady](https://www.airidale.net/guides/npc-locations#lunch-lady-scrap-shops) are physical items and must remain in your inventory.
+Tag Crate Keys and gang boss keys bought from the [Lunch Lady](/guides/npc-locations#lunch-lady-scrap-shops) are physical items and must remain in your inventory.
 
 ### Where do I open crates?
 
@@ -135,7 +135,7 @@ Visit `/warp crates` to find the crate area.
 
 ### What happens to items when I lose or leave a cell?
 
-Items stored in [cell](https://www.airidale.net/guides/complete-player-guide#cells-and-prestige-shops) containers, including chests and barrels, are moved to that ward's Auction House when the cell expires, is released, or is taken during a ward change.
+Items stored in [cell](/guides/complete-player-guide#cells-and-prestige-shops) containers, including chests and barrels, are moved to that ward's Auction House when the cell expires, is released, or is taken during a ward change.
 
 Each ward has its own Auction House. Look for the large `AH` letters above its entrance.
 
@@ -177,4 +177,4 @@ Use `/discord` to join the [Airidale Discord](https://discord.com/invite/airidal
 
 ### Where can I read the rules?
 
-Use `/rules` to open the in-game [rules](https://www.airidale.net/guides/complete-player-guide#rules-and-fair-play). If a situation is unclear, ask staff in a [Discord](https://discord.com/invite/airidale) ticket before taking a risk.
+Use `/rules` to open the in-game [rules](/guides/complete-player-guide#rules-and-fair-play). If a situation is unclear, ask staff in a [Discord](https://discord.com/invite/airidale) ticket before taking a risk.
