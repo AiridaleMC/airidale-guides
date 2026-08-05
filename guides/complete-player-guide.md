@@ -211,9 +211,10 @@ The Scrap Dealer offers two gambles:
 | Option | Cost | Reward level |
 |---|---:|---|
 | Low Roller | 25 Scrap | Normal Shard reward |
-| High Roller | 250 Scrap | Ten times the normal amount |
+| High Roller | 250 Scrap | Ten times the Low Roller amount |
+| Super High Roller | 2500 Scrap | Ten times the High Roller amount |
 
-Gamble Bar drinks each have a 45% normal win chance and a 1% super-lucky chance:
+Gamble Bar drinks each have a 47% normal win chance and a 1% super-lucky chance:
 
 | Drink | Cost | Normal win | Super-lucky win |
 |---|---:|---:|---:|
