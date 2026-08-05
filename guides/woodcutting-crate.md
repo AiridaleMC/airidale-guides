@@ -10,7 +10,7 @@ tags:
   - rewards
 featured: false
 order: 140
-status: active
+status: archived
 ---
 
 # Woodcutting Crate

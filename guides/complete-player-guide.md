@@ -190,13 +190,13 @@ Each setting has a short anti-spam delay before it can be changed again.
 
 ## Crates
 
-The Crates menu displays your virtual Fishing, Mining, Mob, and Woodcutting key totals.
+Crates are opened with virtual keys at `/warp crates`, which can be earned by several ways in-game, by voting or by purchasing Key Alls from the store. 
 
 - Left-click a crate to use one key.
 - Shift-left-click to open up to 10 keys.
 - Right-click to preview rewards and displayed chances.
 
-Woodcutting keys can be earned while cutting wood. See the [Woodcutting Crate guide](/guides/woodcutting-crate) for its current rewards.
+See the [Crates guide](/guides/crates) for details.
 
 ## Referrals, Interactive Chat, and Junker
 
