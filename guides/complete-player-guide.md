@@ -222,6 +222,7 @@ Gamble Bar drinks each have a 45% normal win chance and a 1% super-lucky chance:
 | Champagne | $25,000 | $50,000 | $100,000 |
 | Vodka | $125,000 | $250,000 | $500,000 |
 | Absinthe | $250,000 | $500,000 | $1,000,000 |
+| Everclear | $1,000,000 | $2,000,000 | $4,000,000 |
 
 ## Creating a Player Shop
 
