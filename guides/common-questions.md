@@ -65,13 +65,13 @@ There is currently no Miscellaneous or Weekly quest-reset voucher.
 
 ### What are Souls used for?
 
-Souls are the currency used to [enchant](/guides/enchanting-and-soul-costs.md) equipment on Airidale. They are physical items, so they must be in your inventory when you enchant something.
+Souls are the currency used to [enchant](/guides/enchanting-and-soul-costs) equipment on Airidale. They are physical items, so they must be in your inventory when you enchant something.
 
 Place an item into an enchanting table and hover over an enchantment to see its Soul cost before buying it.
 
 ### Where can I get Souls?
 
-Souls can come from mining, woodcutting, killing mobs or animals, fishing, and crates. You can also trade with other players or buy Souls from the [Lunch Lady](/guides/npc-locations#lunch-lady-scrap-shops) for 100 Scrap each.
+Souls can come from mining, woodcutting, killing mobs or animals, fishing, and crates. You can also trade with other players or buy Souls from the [Lunch Lady](/guides/npc-locations#lunch-lady--scrap-shops) for 100 Scrap each.
 
 ## Disenchanting Safely
 
@@ -88,10 +88,10 @@ Soulbound Books can be applied to compatible equipment for an experience cost. N
 
 Use a smithing table with:
 
-- A Netherite Upgrade Smithing Template from the [Lunch Lady](/guides/npc-locations#lunch-lady-scrap-shops).
+- A Netherite Upgrade Smithing Template from the [Lunch Lady](/guides/npc-locations#lunch-lady--scrap-shops).
 - One Netherite Ingot.
 - The Diamond tool or armor piece being upgraded.
-- Enough Souls to cover the material-price difference for its [enchantments](/guides/enchanting-and-soul-costs.md).
+- Enough Souls to cover the material-price difference for its [enchantments](/guides/enchanting-and-soul-costs).
 
 ## Donor Kits
 
@@ -125,7 +125,7 @@ Each [smuggler](/guides/npc-locations#e-ward-smugglers-den) pays twice the norma
 
 Fishing, Mining, Mob, Woodcutting, and Legendary keys are virtual. Use `/keys` to view them.
 
-Tag Crate Keys and gang boss keys bought from the [Lunch Lady](/guides/npc-locations#lunch-lady-scrap-shops) are physical items and must remain in your inventory.
+Tag Crate Keys and gang boss keys bought from the [Lunch Lady](/guides/npc-locations#lunch-lady--scrap-shops) are physical items and must remain in your inventory.
 
 ### Where do I open crates?
 
@@ -159,7 +159,7 @@ In every ward, reaching level 2 grants a permanent Speed effect and reaching lev
 
 ### What command does Prestige 1 unlock?
 
-[Prestige](/guides/prestige-guide.md) 1 unlocks command access to your ordinary Ender Chest through `/enderchest` or `/ec`.
+[Prestige](/guides/prestige-guide) 1 unlocks command access to your ordinary Ender Chest through `/enderchest` or `/ec`.
 
 ## Mob Arenas
 
