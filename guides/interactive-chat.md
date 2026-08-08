@@ -36,6 +36,7 @@ The following information tags have a 30-second cooldown:
 | `[scrap]` or `[s]` | Your Scrap balance |
 | `[balance]` or `[bal]` | Your money balance |
 | `[coinflipstats]` or `[cfstats]` | Coinflip profit, games played, and win percentage |
+| `[drinkstats]` or `[drink]` | Gamblebar profit, times played, jackpots hit, and win percentage |
 | `[mcmmopower]` or `[mcpower]` | Your mcMMO Power Level |
 | `[country]` or `[region]` | Your geolocated country |
 | `[internet]` or `[isp]` | Your geolocated internet provider |
