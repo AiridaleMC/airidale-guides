@@ -144,7 +144,7 @@ Use `/discord` to join the Airidale community [Discord](https://discord.com/invi
 
 Airidale rotates between individual Mining, individual Fishing, cooperative Mining, and cooperative Fishing contests.
 
-- A new contest is scheduled every three hours.
+- A new contest is scheduled every two hours.
 - Each contest lasts 30 minutes.
 - Use `/contest time` to check the current timing.
 - Contest announcements can be controlled through your personal settings.
@@ -167,6 +167,13 @@ Individual Fishing is based on treasure rarity:
 - At 30 or more players, only Legendary and Mythic treasures qualify.
 - The first three different players to catch a qualifying treasure place.
 
+### Individual Parkour
+
+Individual Parkour is based on parkour completion time:
+
+- 30 parkour jumps, contest takes place at /warp parkour.
+- The first three different players to complete the parkour place.
+
 ### Cooperative Mining
 
 - The shared goal is 1,500 blocks per online player, with a minimum goal of 1,500.
@@ -178,6 +185,13 @@ Individual Fishing is based on treasure rarity:
 - The shared goal is 25 catches per online player, with a minimum goal of 25.
 - You must contribute at least 12 catches to earn the participation reward.
 - Fish, treasure, junk, and other catches all count.
+
+### Cooperative Boss Fight
+
+- Boss has 400 HP for everyone online non-afk player.
+- You must 150 damage to the boss to earn the participation reward.
+- Top three damage output players place.
+- Keep Inventory and Keep Experience are enabled at /warp boss-contest.
 
 ### Contest Rewards
 
