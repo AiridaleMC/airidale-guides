@@ -18,7 +18,7 @@ status: active
 
 ## Prestige Commissary
 
-The [prestige](/guides/prestige-guide) [commissary](/guides/npc-locations#commissary-guard) requires P1 or higher. Each prestige level gives you one minute of access per day, from one minute at P1 to 10 minutes at P10.
+The [prestige](/guides/prestige-guide) [commissary](/guides/npc-locations#commissary-guard) requires P1 or higher. Each prestige level gives you one minute of access per day, from one minute at P1 to 10 minutes at P10. The [commissary](/guides/npc-locations#commissary-guard) features a mine containing diamond and emerald blocks, as well as an animal spawner with cows that have a chance to drop Collector's Crate Keys and Enchanted Golden Apples. It also has two shops: one buys copper, iron, and gold ingots and blocks, along with diamonds and emeralds, for twice their base price; the other buys cooked cod, cooked salmon, pufferfish, and tropical fish for twice their base price.
 
 This timed area is separate from the [Smuggler's Den](/guides/npc-locations#e-ward-smugglers-den) passes sold for 333, 666, or 999 Scrap.
 
