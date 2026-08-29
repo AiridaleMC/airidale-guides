@@ -180,11 +180,11 @@ Opening a Fishing Crate will reward you with one of the following:
 
 | Reward | Chance |
 | --- | --- |
-| $1,500 | 2416/10000 (24.16%) |
-| 75 Scrap | 2416/10000 (24.16%) |
+| $1,500 | 2185/10000 (21.85%) |
+| 75 Scrap | 2185/10000 (21.85%) |
 | Tropical Fish | 1765/10000 (17.65%) |
 | Pufferfish | 1569/10000 (15.69%) |
-| 1.5x Fishing mcMMO Voucher (1:00:00) | 462/10000 (4.62%) |
+| 1.5x Fishing mcMMO Voucher (1:00:00) | 924/10000 (9.24%) |
 | Soul | 686/10000 (6.86%) |
 | Fisher Tag | 196/10000 (1.96%) |
 | Rare Key | 98/10000 (0.98%) |
@@ -201,9 +201,9 @@ Opening a Mining Crate will reward you with one of the following:
 
 | Reward | Chance |
 | --- | --- |
-| $1,500 | 4224/10000 (42.24%) |
-| 75 Scrap | 4059/10000 (40.59%) |
-| 1.5x Mining mcMMO Voucher (1:00:00) | 462/10000 (4.62%) |
+| $1,500 | 3993/10000 (39.93%) |
+| 75 Scrap | 3828/10000 (38.28%) |
+| 1.5x Mining mcMMO Voucher (1:00:00) | 924/10000 (9.24%) |
 | Miner Tag | 165/10000 (1.65%) |
 | Rare Key | 99/10000 (0.99%) |
 | Shaper Armor Trim | 198/10000 (1.98%) |
@@ -220,9 +220,9 @@ Opening a Mob Crate will reward you with one of the following:
 
 | Reward | Chance |
 | --- | --- |
-| $1,500 | 4301/10000 (43.01%) |
-| 75 Scrap | 4301/10000 (43.01%) |
-| 1.5x Swords mcMMO Voucher (1:00:00) | 516/10000 (5.16%) |
+| $1,500 | 4042/10000 (40.42%) |
+| 75 Scrap | 4042/10000 (40.42%) |
+| 1.5x Swords mcMMO Voucher (1:00:00) | 1033/10000 (10.33%) |
 | Slayer Tag | 131/10000 (1.31%) |
 | Rare Key | 98/10000 (0.98%) |
 | Ward Armor Trim | 198/10000 (1.98%) |
@@ -238,9 +238,9 @@ Opening a Woodcutting Crate will reward you with one of the following:
 
 | Reward | Chance |
 | --- | --- |
-| $1,500 | 4224/10000 (42.24%) |
-| 75 Scrap | 4059/10000 (40.59%) |
-| 1.5x Woodcutting mcMMO Voucher (1:00:00) | 462/10000 (4.62%) |
+| $1,500 | 3993/10000 (39.93%) |
+| 75 Scrap | 3828/10000 (38.28%) |
+| 1.5x Woodcutting mcMMO Voucher (1:00:00) | 924/10000 (9.24%) |
 | Wood Tag | 165/10000 (1.65%) |
 | Rare Key | 99/10000 (0.99%) |
 | Host Armor Trim | 198/10000 (1.98%) |
